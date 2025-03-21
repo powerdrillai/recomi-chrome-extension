@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Recomi AI Chatbot Extension</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./tailwind.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-100 py-4 px-4 w-128">
+  <div class="max-w-md mx-auto bg-white shadow-md rounded-lg p-4">
+    <div class="text-center mb-8">
+      <h2 class="text-2xl font-bold text-gray-900">Recomi AI Chatbot</h2>
+      <p class="text-gray-500 mt-2">Configure your chatbot settings</p>
+    </div>
+
+    <form class="space-y-6">
+      <div class="bg-blue-50 rounded-lg p-4">
+        <p class="text-sm text-blue-700">
+          Visit <a href="http://recomi.powerdrill.ai" target="_blank" class="font-medium underline hover:text-blue-800 transition-colors">recomi.powerdrill.ai</a> to get Recomi AI Chatbot URL
+        </p>
+      </div>
+
+      <div class="space-y-2">
+        <label for="chatbot-url" class="block text-sm font-medium text-gray-700">
+          AI ChatBot URL
+        </label>
+        <input 
+          type="text" 
+          id="chatbot-url" 
+          name="base-url" 
+          value=""
+          class="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 transition-all duration-200 outline-none"
+          placeholder="https://recomi-app.powerdrill.ai/98e6144c-e0dc-49f3-ae8e-d1b6e263444a"
+        >
+        <span id="error-tip" class="text-red-500 text-sm"></span>
+      </div>
+
+      <div>
+        <button 
+          id="save-button"
+          class="w-full bg-blue-600 text-white py-3 px-4 rounded-lg font-medium hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-all duration-200"
+        >
+          Save
+        </button>
+      </div>
+    </form>
+  </div>
+
+  <script src="options.js"></script>
+</body>
+
+</html>
