@@ -1,6 +1,8 @@
 ## Chrome Extension for Recomi AI Chatbot
 
-### Method 1: Chrome Extension Store * [Click to visit]() *
+### Method 1: Chrome Extension Store
+
+* [Coming soon ...]() *
 
 ### Method 2: Load in Developer Mode Locally
 
