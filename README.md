@@ -2,7 +2,7 @@
 
 ### Method 1: Chrome Extension Store
 
-* [Coming soon ...]() *
+[Download and install from Chrome Web Store](https://chromewebstore.google.com/detail/recomi-ai-chatbot/aafpkknfocakijlagjkckaeecjgbckoa)
 
 ### Method 2: Load in Developer Mode Locally
 
